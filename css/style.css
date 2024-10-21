@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto');
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: local('Philosopher');
+    src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+body{
+    background-color: #ffe4c4;
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li{
+    display: inline;
+    margin-right: 100px;
+}
+
+li:last-child{
+    margin-right: 0px;
+}
+
+.section-img{
+    background-image: url(../img/banner.jpg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 195px;
+
+}
+
+.section-about-block{
+    background: linear-gradient(180deg, rgb(249,213,152) 0%, rgba(235,164,149,0.623) 100%);
+    left: 880px;
+    width: 520px;
+    height: 260px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-about-border{
+    padding-top: 15px;
+    width: 490px;
+    height: 230px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.section-about-text{
+    font-size: 20px;  
+    font-family: 'Roboto';
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Philosopher';
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.CoffeeH{
+    font-size: 96px;
+    font-family: 'Philosopher';
+    text-align: center;
+}
+
+.Coffee_conteiner{
+    
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.coffeetext{
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.selection-discription-items{
+    text-align: center;
+    margin: 0px;
+
+}
+
+.selection-discription-items img{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.selection-discription-items img:last-child{
+    margin-right: 0px;
+}
+
+.colortext{
+    color: red;
+}
+
+.Zakaz{
+    font-family: 'Philosopher';
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Zakaz:hover{
+    color: red;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:hover{
+    color: red;
+}
+
+.YanMap{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.YanMapA{
+    width: 950px; 
+    height: 400px;
+}
+
+.Line{
+    width: 1024px;
+    border: 1px solid #693e05;
+    margin: auto;
+}
+
+@media screen and (max-width: 1075px){
+    .selection-discription-items-1 {width: 250px; height: 250px;}
+    .selection-discription-items-2 {width: 250px; height: 250px;}
+    .selection-discription-items-3 {width: 250px; height: 250px;}
+    .Line {width: 800px;}
+    /* .content {font-size: 20px;} */
+}
+
+@media screen and (max-width: 798px){
+    .selection-discription-items-1 {width: 200px; height: 200px;}
+    .selection-discription-items-2 {width: 200px; height: 200px;}
+    .selection-discription-items-3 {width: 200px; height: 200px;}
+}
+
+@media screen and (max-width: 648px){
+    .selection-discription-items-1 {width: 250px; height: 250px; margin-right: 0px;}
+    .selection-discription-items-2 {display: none;}
+    .selection-discription-items-3 {display: none;}
+    .section-img {padding-top: 150px;}
+    .section-about-block {width: 250px; height: 350px;}
+    .section-about-border {padding-top: 12px; width: 220px; height: 320px;}
+    .section-about-text{font-size: 15px; font-family: 'Roboto';}
+    .section-about-zagolovoktext{font-size: 25px;}
+    .logoup {width: 250px; height: 124px;}
+    .YanMapA {width: 360px; height: 250px;}
+
+}
+
+@media screen and (max-width: 968px){
+    .CoffeeH {font-size: 50px;}
+    .YanMapA {width: 360px;}
+}
+
+@media screen and (max-width: 804px){
+    .lishka {margin-right: 50px;}
+    .psihushka {font-size: 20px;}
+    .Line {width: 550px;}
+}
+
+@media screen and (max-width: 572px){
+    .lishka {margin-right: 20px;}
+    .psihushka {font-size: 15px;}
+    .Line {width: 344px;}
+}
